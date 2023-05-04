@@ -206,7 +206,7 @@ const heatlayer = new L7.HeatmapLayer({})
   .shape('heatmap')
   .style({
     intensity: 5,//越大贡献度越明显
-    radius: 12,
+    radius: 6,
     opacity: 0.5,
     rampColors: {
       colors: [
